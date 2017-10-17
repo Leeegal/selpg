@@ -1,0 +1,35 @@
+package main  
+  
+import(  
+    "fmt"  
+    "os"  
+    "bufio"  
+)  
+\f
+func readFile(path string){  
+      
+    input,_  := os.Open(path)  
+      
+    reader := bufio.NewReader(input)  
+      
+    buff := make([]byte,1)  
+      
+    for {  
+        n,_ := reader.Read(buff)  
+        if n == 0{  
+            break  
+        }  
+          
+        fmt.Printf("%s",string(buff[0:n]))  
+    }  
+\f
+}  
+  
+func main(){  
+  
+    readFile("C:/Users/Administrator/Desktop/chenxun.txt")  
+  
+}
+\f
+end
+\f
