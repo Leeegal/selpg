@@ -19,7 +19,7 @@ Use golang to develop the  [selpg](https://www.ibm.com/developerworks/cn/linux/s
     
     -dlpx ,means printing the output by the printer lpx
     
-# Design
+# Design And Test
 Because I didn't know how to write this code at the begginning, so I just imitated the source code [selpg.c](https://www.ibm.com/developerworks/cn/linux/shell/clutil/selpg.c), So I didn't use so many functions, which may let you see some awful. So some details of the code will be not described here.
 
 - We can see the files in the project: 
